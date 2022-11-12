@@ -8,7 +8,7 @@ interface myButton {
 
 function Button({onClick, text}:myButton) {
     return (
-        <button className="bg-primary text-primtext hover:bg-primtext hover:text-primary border border-primary transition  p-4" onClick={onClick}>{text}</button>
+        <button className="bg-primary text-primtext hover:bg-primtext hover:text-primary border border-primary transition duration-300 ease-in-out p-4" onClick={onClick}>{text}</button>
     );
 }
 

@@ -31,14 +31,15 @@ function Work() {
         }
     ]
     return (
-        <div className="min-h-[90vh] bg-background p-8">
+        <div id="work" className="min-h-[90vh] bg-background p-12">
+            <h1 className="font-serif text-primtext text-center mb-12">Work</h1>
             <div className={"grid grid-cols-1 xl:grid-cols-2  gap-8 justify-items-center"}>
                 {work.map(entry => (
                 <WorkTile key={entry.title} title={entry.title} img={entry.img} description={entry.description}
                           link={entry.link}/>))}
             </div>
             <div className="w-full flex justify-center pt-8">
-                <Link href={"/reports"} className="mx-auto bg-backgroundB p-2 text-primtextB border border-backgroundB hover:bg-background hover:text-primtext transition">Reports of my Internships</Link>
+                <Link href={"/reports"} className="mx-auto bg-backgroundB px-8 py-2 text-primtextB border border-backgroundB hover:bg-background hover:text-primtext transition duration-300 ease-in-out">Reports of my Internships</Link>
             </div>
 
         </div>

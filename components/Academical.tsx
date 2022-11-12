@@ -19,7 +19,7 @@ function Academical() {
             description: "I worked for 6 weeks in the post production of a little film and media company in Fulda."
         },
         {
-            title: "Internship at \"Die Zukunftsbauer \"",
+            title: "Internship at\n \"Die Zukunftsbauer \"",
             date: "10/2019-12/2019",
             description: "In this internship in Berlin I worked in the field of administration, distribution and eventmanagement.\n"
         },
@@ -32,7 +32,7 @@ function Academical() {
     return (
         <div className=" w-full min-h-[90vh]  p-12 bg-backgroundB flex flex-col items-center">
             <h1>Academical career</h1>
-            <div className="flex flex-wrap w-full mt-8 justify-around gap-12 px-12">
+            <div className="flex flex-wrap w-full mt-8 justify-around gap-24 px-12 max-w-7xl ">
                 {academics.map(entry => (<AcademicalTile key={entry.title} title={entry.title} date={entry.date} description={entry.description}/>))}
             </div>
 

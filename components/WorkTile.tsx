@@ -11,7 +11,7 @@ interface Tile {
 
 function WorkTile({img, title, description, link}:Tile) {
     return (
-        <div className="flex h-80 bg-backgroundB max-w-3xl">
+        <div className="flex h-80 bg-backgroundB max-w-2xl">
             <div className="basis-1/3">
                 <div className="h-52 flex relative">
                     <Image src={img} alt={title} fill className="object-cover"/>
@@ -21,7 +21,7 @@ function WorkTile({img, title, description, link}:Tile) {
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <div className="mx-auto mt-4">
-                    <Link href={link} className="bg-primary text-primtext hover:bg-primtext hover:text-primary border border-primary transition  p-4">Read More</Link>
+                    <Link href={link} className="bg-primary text-primtext hover:bg-primtext hover:text-primary border border-primary transition duration-300 ease-in-out  p-4">Read More</Link>
                 </div>
             </div>
         </div>

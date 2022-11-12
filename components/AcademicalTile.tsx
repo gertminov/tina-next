@@ -8,10 +8,12 @@ interface Tile {
 
 function AcademicalTile({title, date, description}:Tile) {
     return (
-        <div className="flex flex-col gap-2 items-center text-center w-52 m-4 ">
-            <h4 className="text-xl">{title}</h4>
-            <h4 className="text-xl">{date}</h4>
-            <p>{description}</p>
+        <div className="basis-1/4">
+            <div className=" mx-auto flex flex-col gap-4 items-center text-center w-60">
+                <h4 className="text-xl">{title}</h4>
+                <h4 className="text-xl">{date}</h4>
+                <p>{description}</p>
+            </div>
         </div>
     );
 }

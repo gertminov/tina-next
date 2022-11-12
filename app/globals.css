@@ -20,3 +20,7 @@
         @apply text-2xl
     }
 }
+
+body {
+    margin: 0;
+}
