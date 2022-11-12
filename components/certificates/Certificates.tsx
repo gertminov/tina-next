@@ -17,12 +17,12 @@ function Certificates() {
         }
     ]
     return (
-        <div className="min-h-[90vh] flex flex-col items-center">
+        <section className="min-h-[90vh] flex flex-col items-center">
             <h1 className="font-serif m-12">Certificates</h1>
             <div className="flex grow flex-wrap w-full justify-center gap-4">
                 {certificates.map(e => (<CertificateTile key={e.name} {...e}/>))}
             </div>
-        </div>
+        </section>
     );
 }
 

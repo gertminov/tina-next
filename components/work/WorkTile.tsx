@@ -11,7 +11,7 @@ interface Tile {
 
 function WorkTile({img, title, description, link}:Tile) {
     return (
-        <div className="flex h-80 bg-backgroundB max-w-2xl">
+        <div className="flex flex-col md:flex-row min-h-80 bg-backgroundB max-w-2xl">
             <div className="basis-1/3">
                 <div className="h-52 flex relative">
                     <Image src={img} alt={title} fill className="object-cover"/>
