@@ -6,7 +6,7 @@ function Footer() {
         <div className="w-full border-t border-primary pt-12">
             <div className="bg-backgroundB text-primtextB flex flex-col items-center p-8">
                 <div>
-                    <h1 className="font-serif">valentinawerr@gmail.com</h1>
+                    <h1 className="font-serif text-2xl sm:text-4xl">valentinawerr@gmail.com</h1>
                     <div className="w-full flex justify-between p-4 ">
                         <Link href={"https://www.linkedin.com/in/valentina-werr-b28408253"} className="underline">LinkedIn</Link>
                         <Link href={"tel:+491713350985"} className="underline">Telephone</Link>

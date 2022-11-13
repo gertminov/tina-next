@@ -4,12 +4,12 @@ function Contact() {
     return (
         <div className="p-12">
             <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 max-w-7xl justify-between">
-                <div className="my-8 w-96" >
-                    <h1 className="font-serif text-8xl">Let`s get in touch!</h1>
+                <div className="my-8 lg:w-96" >
+                    <h1 className="font-serif text-6xl lg:text-8xl">Let`s get in touch!</h1>
                 </div>
                 <div className="basis-1/2">
                     <form action="" className="flex flex-col gap-4">
-                        <div className="flex w-full gap-4">
+                        <div className="flex flex-col sm:flex-row w-full gap-4">
                             <div className="flex w-full flex-col">
                                 <label htmlFor="first-name">First Name</label>
                                 <input name="first-name" type="text" className="border-primary border"/>

@@ -32,7 +32,7 @@ function Academical() {
     return (
         <div className=" w-full min-h-[90vh]  p-12 bg-backgroundB flex flex-col items-center">
             <h1>Academical career</h1>
-            <div className="flex flex-wrap w-full mt-8 justify-around gap-24 px-12 max-w-7xl ">
+            <div className="flex flex-wrap w-full mt-8 justify-around gap-24 sm:px-12 max-w-7xl ">
                 {academics.map(entry => (<AcademicalTile key={entry.title} title={entry.title} date={entry.date} description={entry.description}/>))}
             </div>
 
