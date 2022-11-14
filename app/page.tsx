@@ -8,7 +8,7 @@ import Contact from "../components/contact/Contact";
 
 export default function Home() {
   return (
-    <div className={ "h-full grow flex flex-col justify-between"}>
+    <div className={ "h-full grow flex flex-col justify-between snap-y"}>
         <Hero/>
         <IntroDuction/>
         <Academical/>

@@ -17,6 +17,9 @@ module.exports = {
       },
       fontFamily:{
         serif: ['var(--font-caudex)', ...fontFamily.serif]
+      },
+      listStyleType: {
+        roman: "lower-roman"
       }
     },
   },

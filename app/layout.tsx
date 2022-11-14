@@ -17,7 +17,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
         <head/>
-        <body className=" flex flex-col ">
+        <body className="flex flex-col min-h-screen">
             <Header/>
             <div className="grow flex ">
                 {children}

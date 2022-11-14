@@ -15,8 +15,8 @@ function Footer() {
             </div>
             <div className="flex flex-col items-center bg-background text-primtext py-4">
                 <div>
-                    <Link href={"/cookies"} className="hover:underline px-8">Cookies</Link>
-                    <Link href={"/privacy"} className="hover:underline px-8">Privacy policy</Link>
+                    <Link href={"/cookies"} className="hover:underline px-8" scroll={true}>Cookies</Link>
+                    <Link href={"/privacy"} className="hover:underline px-8" scroll={true}>Privacy policy</Link>
                 </div>
                 <p>© 2022 Valentina Werr</p>
 
