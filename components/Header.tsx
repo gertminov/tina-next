@@ -9,7 +9,7 @@ function Header() {
   return (
     <nav className="fixed w-full flex-none h-[10vh] px-4 bg-backgroundB z-10 border-b border-black flex justify-between items-center">
       <div className="flex">
-        <Link href={"/"} className="font-serif text-5xl h-full w-32">
+        <Link href={"/"} className="font-serif text-5xl h-full w-32" aria-label="Valentina Werr Logo / Home button" >
           <svg
             fill="#000000"
             id="Ebene_1"

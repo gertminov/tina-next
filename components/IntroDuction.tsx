@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function IntroDuction() {
   return (
-    <div className="flex min-h-screen snap-center bg-background p-12 md:min-h-[90vh]">
+    <div className="flex min-h-screen snap-start bg-background p-12 md:min-h-[90vh] flex-shrink-0">
       <div className="flex w-full grow flex-row-reverse flex-wrap bg-white">
         <div className="relative h-48 basis-full bg-red-400 md:h-full  md:basis-1/3">
           <Image

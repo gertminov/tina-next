@@ -3,9 +3,9 @@ import Link from "next/link";
 
 function Page() {
     return (
-        <div className="flex grow flex-col items-center justify-center gap-12">
+        <div className="flex grow flex-col items-center justify-center gap-6 md:gap-12 py-4">
             <div className="h-[10vh]"></div>
-            <h1 className="font-serif">Something went wrong on our end :(</h1>
+            <h1 className="font-serif text-3xl p-8 md:text-4xl">Something went wrong on our end :(</h1>
             <h3>You can still send me a mail via</h3>
             <h3>valentinawerr@gmail.com</h3>
             <Link

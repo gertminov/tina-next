@@ -19,7 +19,7 @@ function Contact() {
           >
             <div className="flex w-full flex-col gap-4 sm:flex-row">
               <div className="flex w-full flex-col">
-                <label htmlFor="first-name">First Name</label>
+                <label htmlFor="firstName">First Name</label>
                 <input
                   name="first-name"
                   id="firstName"
@@ -29,7 +29,7 @@ function Contact() {
               </div>
 
               <div className="flex w-full flex-col">
-                <label htmlFor="last-name">Last Name</label>
+                <label htmlFor="lastName">Last Name</label>
                 <input
                   name="last-name"
                   id="lastName"
