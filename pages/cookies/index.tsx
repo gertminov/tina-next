@@ -1,12 +1,12 @@
 import React from "react";
 import Section from "../../components/Section";
 
-function Page() {
+function Index() {
   return (
     <article className="flex grow flex-col items-center justify-center">
       <div className="h-[10vh]"></div>
       <div className="max-w-6xl p-12">
-        <h1 className="font-serif text-8xl uppercase">Cookie-Richtlinie</h1>
+        <h1 className="font-serif text-5xl sm:text-8xl uppercase">Cookie-Richtlinie</h1>
 
         <Section title={"1. Was ist ein Cookie?"}>
           <p>
@@ -146,4 +146,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default Index;

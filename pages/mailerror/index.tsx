@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 
-function Page() {
+function Index() {
     return (
         <div className="flex grow flex-col items-center justify-center gap-6 md:gap-12 py-4">
             <div className="h-[10vh]"></div>
@@ -18,4 +18,4 @@ function Page() {
     );
 }
 
-export default Page;
+export default Index;

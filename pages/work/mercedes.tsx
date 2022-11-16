@@ -1,9 +1,9 @@
 import React from 'react';
-import Fullpage from "../../../components/Fullpage";
-import WorkHeader from "../WorkHeader";
-import ImageGallery from "../ImageGallery";
+import Fullpage from "../../components/Fullpage";
+import WorkHeader from "../../components/work/WorkHeader";
+import ImageGallery from "../../components/work/ImageGallery";
 
-function Page() {
+function Mercedes() {
     const images = [
         "1",
         "2",
@@ -34,4 +34,4 @@ function Page() {
     );
 }
 
-export default Page;
+export default Mercedes;

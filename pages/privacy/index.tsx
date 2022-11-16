@@ -1,12 +1,12 @@
 import React from "react";
 import Section from "../../components/Section";
 
-function Page() {
+function Index() {
   return (
     <div className="flex grow flex-col items-center">
       <div className="h-[10vh]"></div>
       <div className="flex max-w-6xl flex-col gap-12 p-12">
-        <h1 className="font-serif text-8xl uppercase">Privacy policy</h1>
+        <h1 className="font-serif text-5xl sm:text-8xl uppercase">Privacy policy</h1>
         <p>
           We take the privacy of our website and mobile app users very seriously
           and are committed to protecting the information users provide to us in
@@ -270,4 +270,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default Index;

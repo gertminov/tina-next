@@ -1,9 +1,9 @@
 import React from 'react';
 import Fullpage from "../../components/Fullpage";
-import WorkHeader from "../work/WorkHeader";
+import WorkHeader from "../../components/work/WorkHeader";
 import InternShipTile from "./InternShipTile";
 
-function Page() {
+function Index() {
     return (
         <Fullpage>
             <div className="max-w-5xl p-12">
@@ -21,4 +21,4 @@ function Page() {
     );
 }
 
-export default Page;
+export default Index;

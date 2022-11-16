@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Fullpage from "../../../components/Fullpage";
-import WorkHeader from "../WorkHeader";
-import ImageGallery from "../ImageGallery";
+import Fullpage from "../../components/Fullpage";
+import WorkHeader from "../../components/work/WorkHeader";
+import ImageGallery from "../../components/work/ImageGallery";
 
-function Page() {
+function Index() {
     const images = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
     const text =
         'In my module "Cross media management" ' +
@@ -25,4 +25,4 @@ function Page() {
     );
 }
 
-export default Page;
+export default Index;

@@ -1,6 +1,7 @@
 import React from "react";
 import WorkTile from "./WorkTile";
 import Link from "next/link";
+import MenuOffsetAnchor from "../MenuOffsetAnchor";
 
 function Work() {
   const work = [
@@ -35,7 +36,8 @@ function Work() {
     },
   ];
   return (
-    <div id="work" className="min-h-[90vh] bg-background p-12">
+    <div className="min-h-[90vh] bg-background p-6 sm:p-12 relative">
+      <MenuOffsetAnchor id={"work"}/>
       <h1 className="font-serif text-primtext text-center mb-12">Work</h1>
       <div
         className={

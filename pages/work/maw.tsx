@@ -1,9 +1,9 @@
 import React from "react";
-import Fullpage from "../../../components/Fullpage";
-import WorkHeader from "../WorkHeader";
+import Fullpage from "../../components/Fullpage";
+import WorkHeader from "../../components/work/WorkHeader";
 import Link from "next/link";
 
-function Page() {
+function Maw() {
     const head = "Promotion video for MAW Production";
     const text =
         "At my internship at MAW Production, a media company in Fulda," +
@@ -28,4 +28,4 @@ function Page() {
     );
 }
 
-export default Page;
+export default Maw;

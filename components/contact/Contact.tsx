@@ -1,9 +1,11 @@
 import React, { FormEvent, useState } from "react";
+import MenuOffsetAnchor from "../MenuOffsetAnchor";
 
 function Contact() {
 
   return (
-    <div id="contact" className="p-12">
+    <div className="p-12 relative">
+      <MenuOffsetAnchor id={"contact"}/>
       <div className="mx-auto grid max-w-7xl grid-cols-1 justify-between lg:grid-cols-2">
         <div className="my-8 lg:w-96">
           <h1 className="font-serif text-6xl lg:text-8xl">
