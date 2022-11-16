@@ -76,14 +76,6 @@ function Header() {
             </button>
             {showMenu && (
                 <div className="z-30 fixed inset-0 flex h-screen w-screen flex-col items-end bg-backgroundB md:hidden ">
-                    {/*<div className="flex h-[20vh] w-[20vh] justify-center">*/}
-                    {/*    <button*/}
-                    {/*        onClick={toggleMenu}*/}
-                    {/*        className="mx-auto font-serif text-4xl"*/}
-                    {/*    >*/}
-                    {/*        X*/}
-                    {/*    </button>*/}
-                    {/*</div>*/}
                     <div className="flex w-screen grow items-center justify-center">
                         <div className="p-12">
                             <ul className="flex flex-col items-center gap-8 font-serif text-3xl">
