@@ -15,7 +15,7 @@ function Index() {
                 </p>
             </div>
             <div className="h-full w-full border-t border-primary">
-                <div className="mx-auto grid h-full max-w-7xl grid-cols-1 justify-items-center gap-4 p-12 md:grid-cols-2">
+                <div className="mx-auto grid h-full grid-cols-1 justify-items-center gap-4 p-12 md:grid-cols-2 bg-primary">
                     <InternShipTile
                         link={"/zb/zb_report.pdf"}
                         filename={"Praktikumszeignis Zukunftsbauer.pdf"}

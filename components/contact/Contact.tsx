@@ -24,7 +24,7 @@ function Contact() {
                                     name="first-name"
                                     id="firstName"
                                     type="text"
-                                    className="border border-primary px-4 py-1 focus:outline-none focus:ring focus:ring-1 focus:ring-primary"
+                                    className="border border-background px-4 py-1 focus:outline-none focus:ring focus:ring-1 focus:ring-background"
                                 />
                             </div>
 
@@ -34,7 +34,7 @@ function Contact() {
                                     name="last-name"
                                     id="lastName"
                                     type="text"
-                                    className="border border-primary px-4 py-1 focus:outline-none focus:ring focus:ring-1 focus:ring-primary"
+                                    className="border border-background px-4 py-1 focus:outline-none focus:ring focus:ring-1 focus:ring-background"
                                 />
                             </div>
                         </div>
@@ -45,7 +45,7 @@ function Contact() {
                                 name="email"
                                 type="email"
                                 id="email"
-                                className="w-full border border-primary px-4 py-1 focus:outline-none focus:ring focus:ring-1 focus:ring-primary"
+                                className="w-full border border-background px-4 py-1 focus:outline-none focus:ring focus:ring-1 focus:ring-background"
                             />
                         </div>
 
@@ -53,7 +53,7 @@ function Contact() {
                         <textarea
                             name="message"
                             id="message"
-                            className="h-24 border border-primary p-1 focus:outline-none focus:ring focus:ring-1 focus:ring-primary"
+                            className="h-24 border border-background p-1 focus:outline-none focus:ring focus:ring-1 focus:ring-background"
                         ></textarea>
                         <button
                             type="submit"

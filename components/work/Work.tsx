@@ -54,10 +54,10 @@ function Work() {
           />
         ))}
       </div>
-      <div className="w-full flex justify-center pt-8">
+      <div className="w-full flex justify-center pt-12">
         <Link
           href={"/internships"}
-          className="mx-auto bg-backgroundB px-8 py-2 text-primtextB border border-backgroundB hover:bg-background hover:text-primtext transition duration-300 ease-in-out"
+          className="mx-auto text-xl bg-primary px-12 py-2 text-primtext border border-primary hover:bg-backgroundB hover:text-primary transition duration-300 ease-in-out"
         >
           Reports of my Internships
         </Link>
