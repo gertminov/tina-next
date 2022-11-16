@@ -217,16 +217,16 @@ function Index() {
             automatic. If we knowingly collect, use or disclose information
             collected from a child, we will indicate this in accordance with
             applicable law and obtain parental consent. We do not condition a
-            child's participation in an online activity on the child providing
+            child&apos;s participation in an online activity on the child providing
             more contact information than is reasonably necessary to participate
             in that activity. We will only use the information we collect in
             connection with the services the child has requested. We may also
-            use a parent's contact information to communicate about the child's
+            use a parent&apos;s contact information to communicate about the child&apos;s
             activities in the Services. Parents may review data we have
             collected from their child, prohibit us from collecting further data
             from their child, and request that any data we have collected be
             deleted from our records. Please contact us to view, update or
-            delete your child's information. For your child's protection, we may
+            delete your child&apos;s information. For your child&apos;s protection, we may
             ask you to provide proof of your identity. We may deny you access to
             the data if we believe your identity is questionable. Please note
             that certain data cannot be deleted due to other legal obligations.
