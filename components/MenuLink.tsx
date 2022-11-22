@@ -9,7 +9,7 @@ interface LinkProps {
 
 function MenuLink({href, name, action}:LinkProps) {
     return (
-        <Link onClick={action} className="hover:border-opacity-100 border-opacity-0 border-b border-primary transition duration-300" scroll={true} href={href}>{name}</Link>
+        <Link onClick={action} className="hover:border-opacity-100 border-opacity-0 border-b border-background transition duration-300" scroll={true} href={href}>{name}</Link>
     );
 }
 

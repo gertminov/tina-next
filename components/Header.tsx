@@ -6,7 +6,7 @@ import MenuLink from "./MenuLink";
 function Header() {
     const [showMenu, setShowMenu] = useState(false);
 
-    const menuLine = "w-8 h-0.5 bg-primary transition ease duration-300"
+    const menuLine = "w-8 h-0.5 bg-background transition ease duration-300"
 
     function toggleMenu() {
         setShowMenu(!showMenu);
