@@ -7,10 +7,10 @@ function Hero() {
         <MenuOffsetAnchor id={"hero"}/>
       <div className="text-center max-w-5xl">
         <h1 className="font-serif text-6xl lg:text-9xl pb-12">Valentina Werr</h1>
-        <h3 className="font-serif text-3xl">
+        <h2 className="font-serif text-3xl">
           business administration student focusing on marketing and media
           management
-        </h3>
+        </h2>
       </div>
     </div>
   );
