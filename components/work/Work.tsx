@@ -21,7 +21,7 @@ function Work() {
       link: "/work/mercedes",
     },
     {
-      img: "/kalfs/cover.png",
+      img: "/kalfs/cover.webp",
       title: 'Media planning for the product launch of "S1" by KLAFS',
       description:
         "The focus of this project layed on the selection of suitable media and channels to promote the product launch of the new sauna of KLAFS.",
