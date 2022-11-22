@@ -14,7 +14,7 @@ function WorkTile({img, title, description, link}:Tile) {
         <div className="flex flex-col md:flex-row min-h-80 bg-backgroundB max-w-2xl">
             <div className="basis-1/3">
                 <div className="h-52 flex relative">
-                    <Image src={img} alt={title} fill className="object-cover"/>
+                    <Image src={img} alt={title} fill className="object-cover" sizes="(min-width: 768px) 30vw,"/>
                 </div>
             </div>
             <div className="basis-2/3 p-8 flex flex-col justify-center gap-8">

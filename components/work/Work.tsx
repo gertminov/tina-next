@@ -13,7 +13,7 @@ function Work() {
       link: "/work/veganrestaurant",
     },
     {
-      img: "/mercedes/cover.jpg",
+      img: "/mercedes/cover.webp",
       title: "Mercedes-Benz case study",
       description:
         "What does the Mercedes-Benz group need in order to generate and retain young employees alongside competitors such as Tesla?\n" +
