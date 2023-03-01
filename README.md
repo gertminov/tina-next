@@ -1,5 +1,5 @@
 A portfolio website build with [Next.js](https://nextjs.org/). It is very static, but also very fast :)\
-You can take a look under [valentinawerr.studio](https://www.valentinawerr.studio/)
+You can take a look under [valentinawerr.studio](https://www.valentinawerr.studio/){:target="_blank"}
 
 ## Development
 
