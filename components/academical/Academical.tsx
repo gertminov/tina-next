@@ -15,26 +15,16 @@ function Academical() {
             description: "Since October 2020 I am studying \"business administration, marketing and media management\""
         },
         {
-            title: "Internship at \"MAW Production\"",
-            date: "07/2020 - 08/2020",
-            description: "I worked for 6 weeks in the post production of a little film and media company in Fulda."
-        },
-        {
-            title: "Internship at\n \"Die Zukunftsbauer \"",
-            date: "10/2019-12/2019",
-            description: "In this internship in Berlin I worked in the field of administration, distribution and eventmanagement.\n"
-        },
-        {
             title: "Marienschule Fulda",
             date: "2012-2019",
             description: "I passed my A-levels at this school with a grade point average of 2.4. My advanced courses were English and Politics & Economy."
-        }
+        },
     ]
     return (
-        <div className=" w-full min-h-[90vh]  p-12 bg-backgroundB flex flex-col items-center relative">
+        <div className=" w-full   p-12 bg-backgroundB flex flex-col items-center relative">
             <MenuOffsetAnchor id={"acedemics"}/>
-            <h1 className="font-serif">Academical career</h1>
-            <div className="flex flex-wrap w-full mt-8 justify-around gap-24 sm:px-12 max-w-7xl ">
+            <h1 className="font-serif">Education</h1>
+            <div className="flex flex-wrap w-full my-8 justify-around gap-24 sm:px-12 max-w-7xl ">
                 {academics.map(entry => (<AcademicalTile key={entry.title} title={entry.title} date={entry.date} description={entry.description}/>))}
             </div>
 

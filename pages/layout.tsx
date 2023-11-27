@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Head from "next/head";
-import {Caudex} from "@next/font/google";
+import {Caudex} from "next/font/google";
 
 
 

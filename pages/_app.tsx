@@ -1,6 +1,6 @@
 import "../app/globals.css";
 import type { AppProps } from "next/app";
-import { Caudex } from "@next/font/google";
+import { Caudex } from "next/font/google";
 import RootLayout from "./layout";
 
 const caudex = Caudex({
