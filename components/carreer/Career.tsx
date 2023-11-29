@@ -28,7 +28,7 @@ function Career() {
         <div className=" w-full  p-12 bg-backgroundB flex flex-col items-center relative">
             <MenuOffsetAnchor id={"career"}/>
             <h1 className="font-serif">Career</h1>
-            <div className="flex flex-wrap w-full my-8 justify-around gap-24 sm:px-12 max-w-7xl ">
+            <div className="flex flex-wrap w-full mt-8 justify-around gap-24 sm:px-12 max-w-7xl ">
                 {career.map(entry => (
                     <CareerTile
                         key={entry.title}
